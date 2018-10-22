@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<strong><p>This is the longest tweet with the most non-whitespace characters</p></strong>
+<li>{{ longest_tweet }}<br><i>posted by</i> <strong>@{{ user }} - {{display_name}}</strong></li><br><br>
+<br>
+
+{% endblock %}
